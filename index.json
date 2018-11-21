@@ -1,0 +1,35 @@
+{
+    "type":"SoC",
+    "name":"EFR32MG24",
+    "title": "Silicon Labs EFR32MG24 SoC",
+    "description":"Silicon Labs Matter SoC",
+    "Core": {
+        "CoreNum": 1,
+        "Core":"Cortex-M33",
+        "Fmax":80,
+        "DMIPS": 120,
+        "CoreMark": 360
+    },
+    "manufacturer": {
+        "vendor":"Silicon Labs",
+        "homepage":"https://www.silabs.com/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/EFR32MG24.git"
+    },
+    "version":"1.0.0",
+    "series":["EFR32MG24","EFR32MG22","EFR32MG21"],
+    "package":["QFN48","QFN40"],
+    "peripheral": ["Matter","OpenThread","Zigbee","BLE","UART","SPI","IIC"],
+    "ESD": {
+        "HBM": 2000,
+        "CDM": 500
+    },
+    "keywords": [
+        "Cortex-M33",
+        "Silicon Labs",
+        "Matter","OpenThread","Zigbee","BLE","UART","SPI","IIC",
+        "3.8V","1.71V"
+    ]
+}
